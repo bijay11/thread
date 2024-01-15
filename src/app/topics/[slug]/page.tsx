@@ -15,7 +15,7 @@ export default function TopicShowPage({
         <h1 className="text-2xl font-bold mb-2">{slug} </h1>
       </div>
       <div>
-        <PostCreateForm />
+        <PostCreateForm slug={slug} />
       </div>
     </div>
   );
